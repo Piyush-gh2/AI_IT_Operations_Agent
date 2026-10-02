@@ -1,0 +1,48 @@
+# Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Java
+*.class
+*.log
+
+# Eclipse / Spring Tool Suite
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local Spring configuration
+application-local.properties
+application-local.yml
+
+# Docker local override
+docker-compose.override.yml
+
+# Backup files
+*.bak
+*.backup
